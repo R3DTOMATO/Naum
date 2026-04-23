@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# NAUM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 감정 AI로 유해 콘텐츠를 사전 차단하고, 상처받은 사용자 곁에 머무는 안전 SNS 플랫폼
 
-## Available Scripts
+## 프로젝트 소개
 
-In the project directory, you can run:
+국내 청소년 42.7%가 사이버폭력을 경험하고 있지만 기존 SNS는 사후 신고·차단만 가능합니다. 피해 직후 감정을 털어놓을 곳도 없습니다. NAUM은 이 두 가지 문제를 동시에 해결합니다.
 
-### `npm start`
+## 핵심 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **감정 AI 필터링**: 텍스트의 맥락과 감정 강도를 실시간 분석해 유해 콘텐츠 사전 차단
+- **감정 AI 친구**: 대화가 쌓일수록 사용자에게 맞는 방식으로 반응하는 개인화 감정 AI
+- **감정 반응 버튼**: 좋아요 대신 감정으로 반응하는 피드 시스템
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 기술 스택
 
-### `npm test`
+- **Frontend**: React
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **AI**: OpenAI API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 현재 개발 현황
 
-### `npm run build`
+- [x] 로그인 / 회원가입
+- [x] 피드
+- [x] 감정 반응 버튼
+- [ ] 감정 AI 필터링
+- [ ] 감정 AI 친구
+- [ ] 웹 MVP 출시
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 목표
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. 감정 AI 탑재 웹 MVP 출시
+2. 베타 사용자 100명 확보
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 팀
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| 역할 | 담당 |
+|---|---|
+| 풀스택 개발 | Jun |
+| AI 개발 | 합류 예정 |
