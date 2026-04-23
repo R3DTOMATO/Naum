@@ -1,0 +1,25 @@
+{
+  "short_name": "NAUM",
+  "name": "NAUM App",
+  "icons": [
+    {
+      "src": "NAUMSOFT_LOGO.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "NAUMSOFT_LOGO192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "NAUMSOFT_LOGO512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
